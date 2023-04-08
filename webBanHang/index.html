@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover">
+    <title>Quán Cơm Từ Thiện</title>
+    <link rel="stylesheet" href="/sylte.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container" id="container">
+        <div id="menu">
+            <div class="title">
+                <img src="logo.jpg" alt="">
+            </div>
+            <div id="menu" class="menu-item">
+                <a href="#" id="ve-chung-toi">Về Chúng Tôi</a>
+                <a href="#" id="dich-vu">Dịch Vụ</a>
+                <a href="#" id="lien-he">Liên Hệ</a>
+            </div>
+              
+        </div>
+          
+        <div id="food-container">
+            <div id="header">
+                <div class="add-box">
+                    <i class="fa fa-map-marker your-address" id="add-address">Địa Chỉ</i>
+                </div>
+                <div class="util">
+                    <input id="search-input" type="text" placeholder="">
+                    <button id="search-btn" type="button">Tìm Kiếm</button>
+                    <i class="fa fa-tags">Khuyến Mãi</i>
+                    <i class="fa fa-cart-plus" id="cart-plus"> 0 Giỏ Hàng</i>
+                </div>
+            </div>
+            <div id="food-items" class="d-food-items">
+
+                <div id="Com" class="d-com">
+                    <p id="category-name">Cơm</p>    
+                </div>
+
+                <div id="Canh" class="d-canh">
+                    <p id="category-name">Canh</p>    
+                </div>
+
+                <div id="TrangMieng" class="d-ptrangmieng">
+                    <p id="category-name">Tráng Miệng</p>
+                </div>
+
+                <div id="DoAnThem" class="d-doanthem">
+                    <p id="category-name">Đồ Ăn Thêm</p> 
+                </div>
+
+                <div id="DoAnKhac" class="d-doankhac">
+                    <p id="category-name">Đồ Ăn Khác</p> 
+                </div>
+
+                <div id="Nuoc" class="d-nuoc">
+                    <p id="category-name">Nước</p>
+                </div>
+
+            </div>
+
+            <div id="cart-page" class="cart-toggle">
+                <p id="cart-title">Giỏ Hàng</p>
+                <p id="m-total-amount">Total Amout : 100</p>
+                <table>
+                    <thead>
+                        <td>Món Ăn</td>
+                        <td>Tên Món Ăn</td>
+                        <td>Số Lượng</td>
+                        <td>Giá</td>
+                    </thead>
+                    <tbody id="table-body">
+                    
+                    </tbody>
+                </table>
+                <div class="btn-box">
+                    <button class="cart-btn" onclick="location.reload()">Thoát</button>
+                  </div>
+                  
+            </div>
+        </div>
+        
+        
+
+        <div id="cart">
+            <div class="taste-header">
+                <div class="user">
+                    <i class="fa fa-user-circle" id="circle"> Tài Khoản</i>
+                    
+                </div>
+            </div>
+            <div id="category-list">
+                <p class="item-menu">Món Ăn</p>
+                <div class="border"></div> 
+
+            </div>
+            <div id="checkout" class="cart-toggle">
+                <p id="total-item">Tổng Món Ăn : 5</p>
+                <p id="total-price">Tổng Tiền</p>
+                <p id="delievery">Miễn Phí Giao Hàng Trên $ 40</p>
+                <button class="cart-btn" onclick="location.reload()">Thoát</button>
+            </div>
+        </div>
+    </div>
+        </div>
+    </div>
+</body>
+<script src="food.js" type="module" defer></script>
+</html>
